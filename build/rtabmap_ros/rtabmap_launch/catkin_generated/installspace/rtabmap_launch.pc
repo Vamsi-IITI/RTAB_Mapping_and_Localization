@@ -1,0 +1,8 @@
+prefix=/home/raghu/RTAB_Mapping_and_Localization/install
+
+Name: rtabmap_launch
+Description: Description of rtabmap_launch
+Version: 0.21.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
