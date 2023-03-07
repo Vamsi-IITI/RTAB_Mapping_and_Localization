@@ -1,8 +1,0 @@
-prefix=/home/raghu/RTAB_Mapping_and_Localization/devel
-
-Name: rtabmap_demos
-Description: Description of rtabmap_demos
-Version: 0.21.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: rtabmap_conversions rtabmap_msgs find_object_2d

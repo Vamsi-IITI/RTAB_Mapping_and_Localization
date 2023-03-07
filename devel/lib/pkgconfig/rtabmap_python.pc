@@ -1,8 +1,0 @@
-prefix=/home/raghu/RTAB_Mapping_and_Localization/devel
-
-Name: rtabmap_python
-Description: Description of rtabmap_python
-Version: 0.21.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: rospy

@@ -1,8 +1,0 @@
-prefix=/home/raghu/RTAB_Mapping_and_Localization/devel
-
-Name: rtabmap_legacy
-Description: Description of rtabmap_legacy
-Version: 0.21.0
-Cflags: -I/home/raghu/RTAB_Mapping_and_Localization/devel/include
-Libs: -L${prefix}/lib -lrtabmap_legacy_plugins
-Requires: dynamic_reconfigure image_transport rtabmap_conversions rtabmap_msgs

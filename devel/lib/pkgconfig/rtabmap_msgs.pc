@@ -1,8 +1,0 @@
-prefix=/home/raghu/RTAB_Mapping_and_Localization/devel
-
-Name: rtabmap_msgs
-Description: Description of rtabmap_msgs
-Version: 0.21.0
-Cflags: -I/home/raghu/RTAB_Mapping_and_Localization/devel/include
-Libs: -L${prefix}/lib 
-Requires: message_runtime std_msgs std_srvs geometry_msgs sensor_msgs
