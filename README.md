@@ -1,6 +1,8 @@
 # RTAB_Mapping_and_Localization
 
-RTAB Mapping and Localization for a two wheeled robot
+RTAB Mapping and Localization for a two wheeled robot.
+
+Download rtabmap.db file from here : https://drive.google.com/file/d/1vsWSrI-MhfC-8IWOhesMXd_6y-rByk4S/view?usp=sharing
 
 ## Instructions for use :
 
