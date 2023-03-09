@@ -26,7 +26,7 @@ roslaunch my_robot world.launch
 
 ```
 source devel/setup.bash
-rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+roslaunch my_robot teleop.launch 
 ```
 
 You can then command the robot to move using the keys indicated by the teleop node.
@@ -51,7 +51,7 @@ Note : Map uploaded in repo is slightly distorted because robot collided with wa
 
 ## Directory Structure
 
-![Screenshot from 2023-03-08 22-46-24](https://user-images.githubusercontent.com/92263050/223783537-99e757c9-ff07-426c-85ef-6889a52c04d7.png)
+![Screenshot from 2023-03-09 10-12-14](https://user-images.githubusercontent.com/92263050/223919037-87cb94bc-8b9d-420e-891b-873f2deec41d.png)
 
 ## Images 
 
@@ -62,6 +62,16 @@ Note : Map uploaded in repo is slightly distorted because robot collided with wa
 ![Screenshot from 2023-03-08 22-44-46](https://user-images.githubusercontent.com/92263050/223783692-726ccf82-9342-4e85-8410-a0363fb93c98.png)
 
 ![Screenshot from 2023-03-08 22-44-58](https://user-images.githubusercontent.com/92263050/223783736-7a293624-dc26-4f4a-a5ff-92ce1d228cd3.png)
+
+ ### No loop closure : ( rtabmap.db file for this already present in repo )
+ 
+![image](https://user-images.githubusercontent.com/92263050/223918474-eaee3f6d-86f6-4f36-8746-9c7a70565c71.png)
+
+![image](https://user-images.githubusercontent.com/92263050/223918509-dc2c55ab-d748-4180-a236-e6813d6eee21.png)
+
+### After 5 loop closures : ( Map got distorted ) ( Download link provided in download_rtabmap.md )
+
+![Screenshot from 2023-03-09 10-06-46](https://user-images.githubusercontent.com/92263050/223918861-9f735b18-76bd-4f68-afdc-a217e4ea044b.png)
 
 ## rqt_tf_tree 
 ``` rosrun rqt_tf_tree rqt_tf_tree ```
