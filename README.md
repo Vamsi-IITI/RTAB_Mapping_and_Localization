@@ -57,11 +57,7 @@ Note : Map uploaded in repo is slightly distorted because robot collided with wa
 
 ![Screenshot from 2023-03-08 22-40-11](https://user-images.githubusercontent.com/92263050/223783618-30fec003-8320-4c35-9af6-a005f6637596.png)
 
-![Screenshot from 2023-03-08 22-41-51](https://user-images.githubusercontent.com/92263050/223783663-f8c89fbe-cda9-4911-a99f-7cca5d2ed9ee.png)
-
-![Screenshot from 2023-03-08 22-44-46](https://user-images.githubusercontent.com/92263050/223783692-726ccf82-9342-4e85-8410-a0363fb93c98.png)
-
-![Screenshot from 2023-03-08 22-44-58](https://user-images.githubusercontent.com/92263050/223783736-7a293624-dc26-4f4a-a5ff-92ce1d228cd3.png)
+![Screenshot from 2023-03-10 13-35-53](https://user-images.githubusercontent.com/92263050/224259591-d48bdc4c-db0e-4234-b56e-1dc22b46279e.png)
 
  ### No loop closure : ( rtabmap.db file for this already present in repo )
  
@@ -69,9 +65,13 @@ Note : Map uploaded in repo is slightly distorted because robot collided with wa
 
 ![image](https://user-images.githubusercontent.com/92263050/223918509-dc2c55ab-d748-4180-a236-e6813d6eee21.png)
 
-### After 5 loop closures : ( Map got distorted ) ( Download link provided in download_rtabmap.md )
+### After some loop closures : ( Download link provided in download_rtabmap.md )
 
-![Screenshot from 2023-03-09 10-06-46](https://user-images.githubusercontent.com/92263050/223918861-9f735b18-76bd-4f68-afdc-a217e4ea044b.png)
+![graph](https://user-images.githubusercontent.com/92263050/224259382-2d0c0ff8-decd-4ce8-92f4-76d622df00c2.png)
+
+![Screenshot from 2023-03-10 13-34-21](https://user-images.githubusercontent.com/92263050/224259407-8ef9acc5-d638-44c4-85db-0f0e9b41db76.png)
+
+![Screenshot from 2023-03-10 13-35-53](https://user-images.githubusercontent.com/92263050/224259519-8bc71688-eb56-40e4-a3fc-faadb0d92fc3.png)
 
 ## rqt_tf_tree 
 ``` rosrun rqt_tf_tree rqt_tf_tree ```
